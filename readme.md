@@ -1,10 +1,10 @@
-#Front End Starter
+# Front End Starter
 
 Based on the [Webpack](https://webpack.js.org/) module bundler.
 
 ---
 
-####Used plugins and dependencies:
+#### Used plugins and dependencies:
 
 | Option                               | Description                                                                                               |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -19,7 +19,7 @@ Based on the [Webpack](https://webpack.js.org/) module bundler.
 
 ---
 
-####Available Scripts
+#### Available Scripts
 
 Create development build (files will not be compressed):
 
@@ -41,19 +41,19 @@ npm run start
 
 ---
 
-####Usage
+#### Usage
 
 Entry point for all files (scripts and styles) is `src/index.js`.
 
 All the scripts imported into `index.js` will be compiled into one script `bundle.js`, styles will be compiled into `style.css`.
 
-#####Import sass into sass files:
+##### Import sass into sass files:
 
 ```css
 @import "filename";
 ```
 
-#####Import scripts and styles into index.js:
+##### Import scripts and styles into index.js:
 
 ```js
 import "filename";
@@ -63,7 +63,7 @@ import { component } from "./filename";
 import component from "./filename";
 ```
 
-#####Use jQuery:
+##### Use jQuery:
 
 ```js
 npm add jquery
